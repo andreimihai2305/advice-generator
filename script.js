@@ -8,8 +8,9 @@ async function getAdvice() {
     let data = await res.json();
 
     const {advice, id} = data.slip;
-    h1.innerHTML = advice;
+    h1.innerHTML = `"${advice}"`;
     p.innerHTML = `Advice #${id}`;
 
 }
+window.onload = getAdvice;
 nextAdvice.addEventListener('click', getAdvice);
