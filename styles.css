@@ -42,6 +42,7 @@ h1 {
 
 .icon {
     padding: 1rem;
+    margin-bottom: 1rem;
     background-color: hsl(150, 100%, 66%);
     width: 10%;
     justify-self: center;
