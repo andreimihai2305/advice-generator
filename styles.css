@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+main {
+    width: 80vw;
+    height: 60vh;
+    padding: 0 1rem;
+    background-color:  hsl(217, 19%, 24%);
+    margin: 30% auto;
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;  */
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    
+    margin-inline: auto;
+    margin-top: 2rem;
+    font-family: 'Manrope', sans-serif;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.4ch;
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    margin: 1rem 0;
+}
+
+.spacer {
+    margin-bottom: 4rem;
+}
+
+div {
+    padding: 1rem;
+    background-color: hsl(150, 100%, 66%);
+    width: 10%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 100%;
+    /* padding: 1rem; */
+    
+}
