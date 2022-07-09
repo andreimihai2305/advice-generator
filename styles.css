@@ -36,8 +36,13 @@ h1 {
     margin: 1rem 0;
 }
 
-.spacer {
+.spacer-mobile {
+    display: inline;
     margin-bottom: 4rem;
+}
+
+.spacer-desktop {
+    display: none;
 }
 
 .icon {
@@ -73,10 +78,19 @@ h1 {
         margin: 1rem auto;
     }
 
-    button {
+    .icon {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 5%;
+        width: 10%;
+    }
+
+    .spacer-mobile {
+        display: none;
+    }
+
+    .spacer-desktop {
+        display: inline;
+        margin-bottom: 4rem;
     }
 }
