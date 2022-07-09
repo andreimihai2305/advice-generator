@@ -4,7 +4,7 @@ body {
 
 main {
     width: 80vw;
-    height: 60vh;
+    /* height: 400px; */
     padding: 0 1rem;
     background-color:  hsl(217, 19%, 24%);
     margin: 30% auto;
@@ -40,7 +40,7 @@ h1 {
     margin-bottom: 4rem;
 }
 
-div {
+.icon {
     padding: 1rem;
     background-color: hsl(150, 100%, 66%);
     width: 10%;
@@ -51,15 +51,11 @@ div {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    width: 10vw;
 }
 
-.icon {
-    width: 100%;
-    /* padding: 1rem; */
-    
-}
 
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 500px) {
     main {
         width: 40vw;
         height: 30vh;
@@ -76,7 +72,7 @@ div {
         margin: 1rem auto;
     }
 
-    div {
+    button {
         display: flex;
         align-items: center;
         justify-content: center;
